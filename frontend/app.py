@@ -13,7 +13,7 @@ topic = st.text_input("Enter a topic:")
 # Button to generate content
 if st.button("Generate Content"):
     if topic:
-        response = requests.post("http://127.0.0.1:8000/generate/", json={"topic": topic})
+        response = requests.post("http://34.211.200.85:8501/generate/", json={"topic": topic})
         if response.status_code == 200:
             st.session_state.content_data = response.json()
             st.write("Content generated successfully.")
@@ -30,7 +30,7 @@ if 'content' in st.session_state.content_data:
     # Button to submit content
     if st.button("Submit Content"):
         content_id = st.session_state.content_data['id']
-        submit_response = requests.post("http://127.0.0.1:8000/submit/", json={"content_id": content_id})
+        submit_response = requests.post("http://34.211.200.85:8501/submit/", json={"content_id": content_id})
         if submit_response.status_code == 200:
             st.write("Content submitted successfully.")
             st.session_state.content_data = {}  # Clear the data after submission
