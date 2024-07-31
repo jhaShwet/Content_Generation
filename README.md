@@ -3,7 +3,7 @@ ContentCraft is a FastAPI and Streamlit-based application that generates content
 
 ## Tech Stack
 
-### Backend: [ContentCraft Backend](https://backend-app1-0icr.onrender.com)
+### Backend: [https://backend-app1-0icr.onrender.com](https://content-backend2.onrender.com/)
 
 - **FastAPI**: High-performance web framework for APIs.
 - **Uvicorn**: ASGI server for FastAPI.
@@ -12,11 +12,11 @@ ContentCraft is a FastAPI and Streamlit-based application that generates content
 - **API Endpoints**: Configure the requests on Postman.
 
     - **Root Endpoint**
-    - **Generate Content**: `curl -X POST "https://backend-app1-0icr.onrender.com/generate/" -H "Content-Type: application/json" -d '{"topic": "Python"}'`
-    - **Search Content**: `curl -X POST "https://backend-app1-0icr.onrender.com/search/" -H "Content-Type: application/json" -d '{"topic": "Python"}'`
-    - **Submit Content**: `curl -X POST "https://backend-app1-0icr.onrender.com/submit/" -H "Content-Type: application/json" -d '{"content": "Generated content here"}'`
+    - **Generate Content**: `curl -X POST "[https://backend-app1-0icr.onrender.com](https://content-backend2.onrender.com/)/generate/" -H "Content-Type: application/json" -d '{"topic": "Python"}'`
+    - **Search Content**: `curl -X POST "[https://backend-app1-0icr.onrender.com](https://content-backend2.onrender.com/)/search/" -H "Content-Type: application/json" -d '{"topic": "Python"}'`
+    - **Submit Content**: `curl -X POST "[https://backend-app1-0icr.onrender.com](https://content-backend2.onrender.com/)/submit/" -H "Content-Type: application/json" -d '{"content": "Generated content here"}'`
 
-### Frontend: [ContentCraft Frontend](https://frontend-app5.onrender.com)
+### Frontend: [https://frontend-app5.onrender.com](https://content-frontend-0ji5.onrender.com/)
 
 - **Streamlit**: Framework for interactive web applications.
 - **Functionality**:
@@ -30,7 +30,7 @@ ContentCraft is a FastAPI and Streamlit-based application that generates content
 
 ## Hosting
 
-- **GitHub**: [MCQ Generator Repository](https://github.com/jhaShwet/MCQ-generator/)
+- **GitHub**: https://github.com/jhaShwet/Content_Generation
 - **Render**: Deployment of the application
 - **Features**:
     - Generate content on a given topic.
