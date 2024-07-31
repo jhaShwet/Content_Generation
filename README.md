@@ -3,7 +3,7 @@ ContentCraft is a FastAPI and Streamlit-based application that generates content
 
 ## Tech Stack
 
-### Backend: [https://backend-app1-0icr.onrender.com](https://content-backend2.onrender.com/)
+### Backend: https://content-backend2.onrender.com/
 
 - **FastAPI**: High-performance web framework for APIs.
 - **Uvicorn**: ASGI server for FastAPI.
@@ -16,7 +16,7 @@ ContentCraft is a FastAPI and Streamlit-based application that generates content
     - **Search Content**: `curl -X POST "[https://backend-app1-0icr.onrender.com](https://content-backend2.onrender.com/)/search/" -H "Content-Type: application/json" -d '{"topic": "Python"}'`
     - **Submit Content**: `curl -X POST "[https://backend-app1-0icr.onrender.com](https://content-backend2.onrender.com/)/submit/" -H "Content-Type: application/json" -d '{"content": "Generated content here"}'`
 
-### Frontend: [https://frontend-app5.onrender.com](https://content-frontend-0ji5.onrender.com/)
+### Frontend:  https://content-frontend-0ji5.onrender.com/
 
 - **Streamlit**: Framework for interactive web applications.
 - **Functionality**:
